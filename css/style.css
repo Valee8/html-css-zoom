@@ -148,14 +148,17 @@ footer .arrow i {
 .menu-footer-right {
     font-weight: bold;
     font-size: 10px;
-    line-height: 60px;
+    height: 60px;
+}
+
+.menu-footer-right {
+    display: flex;
+    align-items: center;
+    background-color: #4A4A4A;
+    cursor: pointer;
+    padding: 0 15px;
 }
 
 .menu-footer-right a {
-    align-self: center;
-    background-color: #4A4A4A;
-    height: 60px;
-    padding: 0 20px;
     color: #C91C04;
-    display: inline-block;
 }
