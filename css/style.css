@@ -113,11 +113,10 @@ footer ul {
 }
 
 footer li {
-    cursor: pointer;
     text-align: center;
 } 
 
-.menu-footer-center li.share i {
+.menu-footer-center .share i {
     color: #4BC800;
 }
 
@@ -125,24 +124,18 @@ footer li a {
     font-size: 10px;
 }
 
+footer li .arrow i {
+    font-size: 8px;
+}
+
 footer li:not(:last-child) {
-    margin-right: 15px;
-}
-
-footer li i {
-    font-size: 22px;
-}
-
-footer li:not(.arrow) i {
-    display: block;
-}
-
-footer .arrow {
-    align-self: center;
+    margin-right: 18px;
 } 
 
-footer .arrow i {
-    font-size: 9px;
+footer li .icon i {
+    font-size: 22px;
+    display: block;
+    padding-bottom: 7px;
 }
 
 .menu-footer-right {
@@ -151,14 +144,24 @@ footer .arrow i {
     height: 60px;
 }
 
+footer li .arrow {
+    padding-left: 10px;
+}
+
 .menu-footer-right {
     display: flex;
     align-items: center;
     background-color: #4A4A4A;
     cursor: pointer;
     padding: 0 15px;
+    text-align: center;
 }
 
 .menu-footer-right a {
     color: #C91C04;
 }
+
+.icon-arrow {
+    display: flex;
+    align-items: center;
+}  
