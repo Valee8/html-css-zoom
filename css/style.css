@@ -50,7 +50,6 @@ header {
     vertical-align: middle;
 }
 
-
 /* Main */
 .main-images {
     height: calc(100vh - 101px);
@@ -59,7 +58,7 @@ header {
 }
 
 .container-images {
-    width: 80%;
+    width: 85%;
     margin: 0 auto;
     height: 100%;
     overflow-y: auto;
@@ -69,8 +68,26 @@ header {
     display: flex;
 }
 
+.section-images:not(:last-child) {
+    margin-bottom: 9px;
+}
+
 .images {
     width: calc(100% / 7);
+    position: relative;
+    font-size: 10px;
+}
+
+.images .name-user {
+    position: absolute; 
+    left: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .3);
+    padding: 6px;
+}
+
+.images:not(:last-child) {
+    margin-right: 4px;
 }
 
 
