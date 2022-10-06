@@ -52,7 +52,7 @@ header {
 
 /* Main */
 .main-images {
-    height: calc(100vh - 101px);
+    height: calc(100vh - 81px);
     overflow: hidden;
     padding: 40px 0 20px 0;
 }
@@ -93,6 +93,13 @@ header {
 
 /* Footer */
 footer {
-    height: 80px;
-    background-color: blueviolet;
+    height: 60px;
+    background-color: #222222;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0 auto;
 }
