@@ -134,13 +134,9 @@ footer li.arrow i {
     color: #4BC800;
 }
 
-footer li .icon i {
+.menu-footer-left li i, .menu-footer-center li i {
     font-size: 22px;
     display: block;
-}
-
-footer li:not(.arrow) i {
-    padding-bottom: 7px;
 }
 
 .menu-footer-right {
