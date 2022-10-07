@@ -115,17 +115,18 @@ footer ul {
 
 footer li {
     text-align: center;
+    align-self: center;
 } 
 
 footer li:not(:last-child) {
-    margin-right: 18px;
+    margin-right: 15px;
 } 
 
 footer li a {
     font-size: 10px;
 }
 
-footer li .arrow i {
+footer li.arrow i {
     font-size: 8px;
 }
 
@@ -136,17 +137,11 @@ footer li .arrow i {
 footer li .icon i {
     font-size: 22px;
     display: block;
+}
+
+footer li:not(.arrow) i {
     padding-bottom: 7px;
 }
-
-footer li .arrow {
-    padding-left: 10px;
-}
-
-.icon-arrow {
-    display: flex;
-    align-items: center;
-}  
 
 .menu-footer-right {
     display: flex;
