@@ -126,7 +126,7 @@ footer li a {
     font-size: 10px;
 }
 
-footer li.arrow i {
+.menu-footer-left li.arrow i, .menu-footer-center li.arrow i {
     font-size: 8px;
 }
 
@@ -134,9 +134,13 @@ footer li.arrow i {
     color: #4BC800;
 }
 
-.menu-footer-left li i, .menu-footer-center li i {
+footer li .icon i {
     font-size: 22px;
     display: block;
+}
+
+footer li:not(.arrow) i { 
+    padding-bottom: 7px; 
 }
 
 .menu-footer-right {
